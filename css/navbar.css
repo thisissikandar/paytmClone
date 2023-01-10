@@ -1,0 +1,129 @@
+header {
+    background: #ffffff;
+    height: 91px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav .product-series {
+    padding-top: 16px;
+}
+
+header nav .product-series .product {
+    position: relative;
+    display: inline-block;
+}
+
+header nav .logo img {
+    width: 190px;
+    margin-left: 70px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+header nav .product-series .product .product-btn {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+header nav .product-series .product .product-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-bottom: 35px;
+    border-radius: 5px;
+    outline: invert;
+}
+
+header nav .product-series .product .product-content a {
+    color: black;
+    padding: 12px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+header nav .product-series .product .product-content a .rightAngle {
+    display: none;
+}
+
+
+header nav .product-series .product .product-content a:hover .rightAngle {
+    display: block;
+}
+
+header nav .product-series .product .product-content a:hover .arrowRight {
+    display: none;
+}
+
+header nav .product-series .product .product-btn:hover {
+    background-color: #e7eaee;
+    border-radius: 10px;
+}
+
+/* Change color of dropdown links on hover */
+header nav .product-series .product .product-content a:hover {
+    background-color: #f5f5f5;
+}
+
+/* Show the dropdown menu on hover */
+header nav .product-series .product:hover .product-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+header nav .product-series .product:hover .productbtn {
+    background-color: #ffffff;
+}
+
+header nav .signIn p {
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+    line-height: normal;
+    color: #f1f1f1;
+}
+
+header nav .signIn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    margin-top: 22px;
+    background-color: #00baf2;
+}
+
+header nav .signIn:hover {
+    background-color: #002970;
+}
+
+header nav .signIn img {
+    padding: 5px;
+    margin-left: 30px;
+    width: 30%;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #002970;
+}
